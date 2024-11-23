@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    div{
+        padding-left:150px ;
+        height:600px ;
+        width: 70%;
+        margin-left:50px ;
+        line-height:2.1 ;
+        letter-spacing: 0.5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: radial-gradient(circle,#610968,#b895ea);
+
+    }
+    h1{
+        padding-left: 100px;
+    }
+    .submit.cancel{
+        background-color:#5f1064 ;
+        color: #fff;
+        border:color(black);
+        border-radius:5px ;
+        border-style:ridge ;
+        border-width: 2.3px;
+    }
+    th{
+        font-weight:lighter ;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+   </style> 
+   <div style="text-align: justify;">
+    <h1><u>Register form</u></h1>
+    <form action="">
+        <table>
+            <tr>
+                <th>
+                    <label>username:</label>
+                </th>
+                <td>
+                    <input type="text" required placeholder="user name please">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>age:</label>
+                </th>
+                <td>
+                    <input type="text"required placeholder="age please">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>address:</label>
+                </th>
+                <td>
+                    <textarea name="" cols="30" rows="7px" id="" required placeholder="type your address here..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>date of birth:</label>
+                </th>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Email:</label>
+                </th>
+                <td>
+                    <input type="Email"required placeholder="xyz@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>gender:</label>
+                </th>
+                <td>
+                    <radio>
+                        <input type="radio" name="gender" id="">male 
+                        <input type="radio" name="gender" id="">female 
+                        <input type="radio" name="gender" id="">other 
+                    </radio>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>select hobbies</label>
+                </th>
+                <td>
+                    <input type="checkbox">gaming 
+                    <input type="checkbox">reading
+                    <input type="checkbox">cooking
+                     
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>choose place:</label>
+                   
+                </th>
+                <td>
+                    <select name="choose a place" id=""><option value="choose">choose a place</option>
+                    <option value="">kozhikode</option>
+                    <option value="">kannur</option>
+                    <option value="">malappuram</option>
+                    <option value="">kasargod</option>
+                    <option value="">alappuzha</option>
+                    <option value="">idukki</option>
+                    <option value="">wayanad</option>
+                    <option value="">kollam</option> 
+                    <option value="">kottayam</option>
+                    <option value="">ernakulam</option>
+                    <option value="">thrissur</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>upload cv:</label>
+                </th>
+                <td>
+                    <input typr="file" id="" placeholder="choose a file">No File choosen
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <button class="submit">submit</button>
+                    <button class="cancel">cancel</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+   </div>
+</body>
+</html>
